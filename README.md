@@ -15,8 +15,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/article-preview-card-component-with-vanilla-js-grid-and-flexbox-Y-RA0rpb_M]()
+- Live Site URL: [https://verakissyou17.github.io/Article-Preview-Component/]()
 
 ## My process
 
