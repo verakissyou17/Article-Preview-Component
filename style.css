@@ -21,8 +21,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 auto;
   justify-content: center;
+  margin: 0 auto;
   font-family: 'Manrope', sans-serif;
   background-color: var(--light-grayish-blue);
   color: var(--very-dark-grayish-blue);
@@ -44,45 +44,41 @@ button {
 
 main {
   width: 100%;
-  max-width: 900px;
+  max-width: 780px;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 350px minmax(300px, 550px);
+  grid-template-columns: 270px 1fr;
   border-radius: 10px;
   box-shadow: 5px 5px 10px  hsla(217, 19%, 35%, 0.2);
 }
 
-.image-wrapper {
-  border-radius: 10px 0 0 10px;
-  overflow: hidden;
-}
-
 .main--img {
-  width: 100%;
+  max-width: 270px;
   height: 100%;
   object-position: left;
   object-fit: cover;
-  transition: all 0.5s ease;
+  border-radius: 10px 0 0 10px;
+  overflow: hidden;
 }
 
 .wrapper {
   border-radius: 0 10px 10px 0;
   background-color: var(--white);
-  padding: 2.5em;
+  padding: 1em 2em;
   position: relative;
 } 
 
 .title {
   font-size: 1.5rem;
   font-weight: 700;
-  margin-bottom: 1em;
+  margin-bottom: .5em;
   color: var(--very-dark-grayish-blue);
 }
 
 .subtitle {
   font-size: 0.8125rem;
   color: var(--desaturated-dark-blue);
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
   line-height: 1.5;
 }
 
@@ -94,7 +90,7 @@ main {
 }
 
 .avatar {
-  width: 50px;
+  width: 40px;
   border-radius: 50%;
   margin-right: 1em;
 }
@@ -111,7 +107,7 @@ main {
 
 .share--btn {
   background-color: var(--light-grayish-blue);
-  padding: .7em;
+  padding: .5em;
   border-radius: 50%;
   margin-left: auto;
 }
@@ -122,7 +118,7 @@ main {
 
 .dark--blue {
   background-color: var(--very-dark-grayish-blue);
-  padding: 1em;
+  padding: .5em;
   border-radius: 50%;
   margin-left: auto;
 }
@@ -140,13 +136,13 @@ main {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding: 1.5em;
-  width: 60%;
+  padding: 1em;
+  width: 50%;
   border-radius: 10px;
   position: absolute;
   box-shadow: 10px 10px 10px hsla(217, 19%, 35%, 0.281);;
-  top: 45%;
-  left: 55%;
+  top: 49%;
+  left: 61%;
 }
 
 .social--links img {
@@ -166,7 +162,7 @@ main {
 .social--links-span {
   color: var(--desaturated-dark-blue);
   text-transform: uppercase;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 700;
   letter-spacing: 2px;
 }
@@ -183,7 +179,9 @@ footer {
     margin-top: 1em;
   }
 
-  .image-wrapper {
+  .main--img {
+    min-width: 100%;
+    height: 180px;
     border-radius: 10px 10px 0 0;
   }
 
@@ -193,7 +191,7 @@ footer {
   }
 
   .title {
-    font-size: 1.125rem;
+    font-size: 1rem;
   }
 
   .share--btn {
