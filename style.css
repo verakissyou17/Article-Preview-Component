@@ -64,7 +64,7 @@ main {
 .wrapper {
   border-radius: 0 10px 10px 0;
   background-color: var(--white);
-  padding: 1.7em;
+  padding: 2em;
   position: relative;
 } 
 
@@ -110,6 +110,7 @@ main {
   padding: .5em;
   border-radius: 50%;
   margin-left: auto;
+  cursor: pointer;
 }
 
 .share--btn:hover {
@@ -141,8 +142,8 @@ main {
   border-radius: 10px;
   position: absolute;
   box-shadow: 10px 10px 10px hsla(217, 19%, 35%, 0.281);;
-  top: 49%;
-  left: 61%;
+  top: 135px;
+  left: 318px;
 }
 
 .social--links img {
